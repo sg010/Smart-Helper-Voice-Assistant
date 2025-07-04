@@ -14,11 +14,11 @@ from config import apikey, weather_api_key  # Replace with your actual API keys
 # Global variables
 chatStr = ""  # Chat history
 
-api_key = "e652956fe70548d2b5b85d07348800b4"  # Replace with your actual NewsAPI key
+api_key = "e652956fe70548d2b5b85d07348800bu4"  # Replace with your actual NewsAPI key
 newsapi = NewsApiClient(api_key=api_key)
 
 # Configure the Generative AI API
-genai.configure(api_key="AIzaSyDi1bkSkJ9YDXRycdvpXemeI2RwernKNhI")
+genai.configure(api_key="AIzaSyDi1bkSkJ9YDuXRycdvpXemeI2RwernKNhI")
 model = genai.GenerativeModel("gemini-1.5-flash")
 
 def say(text):
