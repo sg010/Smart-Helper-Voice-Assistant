@@ -1,0 +1,5 @@
+        elif "weather in" in query:
+            city = query.split("in")[-1].strip()  # Extract the city name from the query
+            weather_details = getWeather(city)  # Fetch weather details using get_weather function
+            print(weather_details)  # Print details to the console
+            say(weather_details)  # Speak the weather details
